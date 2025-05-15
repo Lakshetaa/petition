@@ -70,6 +70,7 @@ const LoginPage = () => {
                   }`}
                 />
                 {errors.email && <p className="mt-1 text-sm text-red-500">{errors.email}</p>}
+                }
               </div>
               
               <div className="mb-6">
@@ -86,6 +87,7 @@ const LoginPage = () => {
                   }`}
                 />
                 {errors.password && <p className="mt-1 text-sm text-red-500">{errors.password}</p>}
+                }
               </div>
               
               <Button
